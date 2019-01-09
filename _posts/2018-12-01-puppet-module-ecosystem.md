@@ -1,11 +1,11 @@
 ---
 layout: post
-last-modified: '2019-01-01T01:00:00-04:00'
+last-modified: '2019-01-09T01:00:00-04:00'
 
 title: "Puppetforge module ecosystem"
 subtitle: "Continuously deploy your module to the Puppet Forge, for free, with Travis CI"
 image:
-    feature: puppet-module-ecosystem/forge-2221506_1920.jpg
+    feature: puppet-module-ecosystem/forge-wide.jpg
     credit: jenszhonk
     creditlink: https://pixabay.com/en/users/jenszhonk-1418792/
 
