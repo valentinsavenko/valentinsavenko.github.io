@@ -2,7 +2,8 @@ title:            VS Blog
 description:      personal blog about cloud-fun
 
 # put your disqus here
-disqus_shortname:
+disqus_shortname: valentinsavenko-github-io
+comments: true
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 90
 logo:             images/Cloud-icon.png # logo visible in the topbar
@@ -23,7 +24,7 @@ menu:
   # - title: 'Tags'
   #   url: '/tags'
   # - title: 'About'
-  #   url: 'about'
+    # url: '/about'
   # - title: 'Favorites'
   #   url: '#'
   #   submenu:
@@ -39,6 +40,7 @@ owner:
   avatar:         images/vs.jpg
   bio:            "System Engineer with focus on automation"
   email:          vale-save@t-online.de
+about_author: ..Very impressive bio about me..
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -57,8 +59,8 @@ social:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
+google_analytics: UA-132765615-1
+google_verify: http://sites.google.com/site/neonapevvs/
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
@@ -93,5 +95,5 @@ titlecase: true
 
 include: [".htaccess"]
 exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 theme: neo-hpstr-jekyll-theme

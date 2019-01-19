@@ -8,11 +8,6 @@ image:
     feature: puppet-module-ecosystem/forge-wide.jpg
     credit: jenszhonk
     creditlink: https://pixabay.com/en/users/jenszhonk-1418792/
-
-author:
-  name: Valentin Savenko
-  bio: System Engineer with focus on automation
-  image: vs.jpg
 ---
 The Puppet community is all about automation and self-explanatory, modern approaches to infrastucture and configuration but if you decide to actually go thought all steps that are needed to have a well documented, tested and published puppet module, you'll need to read quite a while, from different sources. I try to abbreviate that process and collect _most_ relevant steps here on one page.
 
