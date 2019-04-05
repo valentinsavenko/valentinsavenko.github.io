@@ -299,9 +299,6 @@ matrix:
       env: 
         - CHECK=spec
         - DEPLOY_TO_FORGE=true
-    -
-      env: PUPPET_GEM_VERSION="~> 4.0" CHECK=spec
-      rvm: 2.1.9
 branches:
   only:
     - master
@@ -321,7 +318,6 @@ deploy:
 - The `before_install` section sets up the ruby system environment
 - the `script` defines which command to run: `bundle exec rake $CHECK`
 - `matrix` shows how often that command is run and what's set for `$CHECK`
-  - the last _case_ runs `spec`-tests with Puppet 4.0, instead of the usual 5.0, to make sure it's compatible.
 
 The more interesting section is `deploy`, here we set Puppetforge as provider and need to put in our user and encrypted password.
 

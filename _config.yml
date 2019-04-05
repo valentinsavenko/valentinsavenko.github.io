@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: https://valentinsavenko.github.io
+url: https://valentinsavenko.de
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -36,11 +36,19 @@ menu:
 # Owner/author information
 owner:
   name:           Valentin Savenko
-  site:           http://valentinsavenko.de
+  site:           http://valentinsavenko.de/about
   avatar:         images/vs.jpg
   bio:            "System Engineer with focus on automation"
   email:          vale-save@t-online.de
-about_author: ..Very impressive bio about me..
+about_author: Interested in I studied mostly Software Engineering methodology for biological applications, but have since moved on to solve technological challenges in the web.
+  I dabbled in test automation with Selenium for an e-commerce website but quickly noticed that the actual fun part was the automation.
+  I don't like doing the same manual task more than twice. Therefore I started getting into deployment pipelines and the DevOps ideology. After building the deployment system for the Java app at my previous company and automate most of the QA work that I was hired for, I switched to System Engineering at Netcentric.
+  Here I learned much more about Linux and networks and administering complex Java applications.
+  During the last year and a half, I moved projects and am now mostly focused on provisioning Infrastructure as Code with CloudFormation Templates on AWS and configure those server compositions with Puppet. Most of those steps are automated, documented and fun to use.
+
+  I would like the opportunity to learn more about different setups and maybe get experience (in production) with containerization and distributed systems.
+
+  The team setup is important to me and I'll have a lot of questions on that topic!
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
