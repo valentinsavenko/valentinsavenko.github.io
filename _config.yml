@@ -38,17 +38,15 @@ owner:
   name:           Valentin Savenko
   site:           http://valentinsavenko.de/about
   avatar:         images/vs.jpg
-  bio:            "System Engineer with focus on automation"
+  bio:            "Automation Engineer @ Signavio"
   email:          vale-save@t-online.de
-about_author: Interested in I studied mostly Software Engineering methodology for biological applications, but have since moved on to solve technological challenges in the web.
-  I dabbled in test automation with Selenium for an e-commerce website but quickly noticed that the actual fun part was the automation.
-  I don't like doing the same manual task more than twice. Therefore I started getting into deployment pipelines and the DevOps ideology. After building the deployment system for the Java app at my previous company and automate most of the QA work that I was hired for, I switched to System Engineering at Netcentric.
-  Here I learned much more about Linux and networks and administering complex Java applications.
-  During the last year and a half, I moved projects and am now mostly focused on provisioning Infrastructure as Code with CloudFormation Templates on AWS and configure those server compositions with Puppet. Most of those steps are automated, documented and fun to use.
+about:
+  Software Engineering consists of using and understanding a whole set of software and code-snippets of other developers.
+  Often how-to tutorials just start with an empty canvas and showcase something that is easy enough to be solved in a single context.
+  IT Systems are more complicated than that. We often have to google for snippets of code and glue them together.
+  The challenge there is to get just enough context to be able to understand and possibly, improve, on the work of people.
+  I try to showcase this for non-trivial tasks I encountered and explain not only the solution, but also the context of the problem space as good as I can!
 
-  I would like the opportunity to learn more about different setups and maybe get experience (in production) with containerization and distributed systems.
-
-  The team setup is important to me and I'll have a lot of questions on that topic!
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
