@@ -1,0 +1,72 @@
+baseURL = "https://raditian-hugo.radity.com/"
+languageCode = "en-us"
+theme = "raditian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+# CSS Plugins
+[[params.plugins.css]]
+URL = "css/main.css"
+[[params.plugins.css]]
+URL = "css/rad-icons.css"
+[[params.plugins.css]]
+URL = "css/custom.css"
+
+# JS Plugins
+[[params.plugins.js]]
+URL = "js/rad-animations.js"
+[[params.plugins.js]]
+URL = "js/sticky-header.js"
+[[params.plugins.js]]
+URL = "js/library/fontfaceobserver.js"
+
+# navigation
+[menu]
+
+[[menu.header]]
+URL = "#about"
+name = "About"
+weight = 2
+
+[[menu.header]]
+URL = "#portfolio"
+name = "Portfolio"
+weight = 3
+
+[[menu.header]]
+URL = "#contact"
+name = "Contact"
+weight = 4
+
+[[menu.footer]]
+URL = "#about"
+name = "About"
+weight = 2
+
+[[menu.footer]]
+URL = "#portfolio"
+name = "Portfolio"
+weight = 3
+
+[[menu.footer]]
+URL = "#contact"
+name = "Contact"
+weight = 4
+
+[params]
+
+sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact"]
+
+googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+[params.logo]
+text1 = "Andreas"
+text2 = "Ellure"
+
+[params.footer]
+copyright = "© Raditian. All rights reserved."
+[params.footer.radity_logo]
+_2x = "img/general/design-and-code-radity@2x.png"
+alt = "Design & Code - Radity"
+x = "img/general/design-and-code-radity.png"
