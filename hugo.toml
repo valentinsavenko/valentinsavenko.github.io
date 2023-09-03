@@ -29,25 +29,25 @@ URL = "#about"
 name = "About"
 weight = 2
 
-[[menu.header]]
-URL = "#portfolio"
-name = "Portfolio"
-weight = 3
+# [[menu.header]]
+# URL = "#portfolio"
+# name = "Portfolio"
+# weight = 3
 
-[[menu.header]]
-URL = "#contact"
-name = "Contact"
-weight = 4
+# [[menu.header]]
+# URL = "#contact"
+# name = "Contact"
+# weight = 4
 
 [[menu.footer]]
 URL = "#about"
 name = "About"
 weight = 2
 
-[[menu.footer]]
-URL = "#portfolio"
-name = "Portfolio"
-weight = 3
+# [[menu.footer]]
+# URL = "#portfolio"
+# name = "Portfolio"
+# weight = 3
 
 [[menu.footer]]
 URL = "#contact"
@@ -56,7 +56,8 @@ weight = 4
 
 [params]
 
-sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact"]
+sections = ["showcase", "about", "education", "experience"]
+# sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact"]
 
 googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
