@@ -8,7 +8,7 @@ showcase:
   enable: true
   title: "Hello, I’m Valentin."
   subtitle: "DevOps Engineer"
-  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+  description: "I'm focused on Cloud and developer experience automation topics and helping teams make fast progress with AWS, CDK, CircleCI, Serverless, Kubernetes and whatever else you'll need!"
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/showcase/showcase.png"
@@ -56,13 +56,17 @@ education:
   enable: true
   title: "Education"
   items:
-    - university: "University of Waterloo"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+    - university: "Hasso Plattner Institute"
+      year: "2015"
+      degree: "Design Thinking, Basic Track"
 
-    - university: "Sir John A Macdonald CI"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+    - university: "İzmir Yüksek Teknoloji Enstitüsü"
+      year: "2014-2015"
+      degree: "Erasmus, 5 months"
+
+    - university: "Universität des Saarlandes"
+      year: "2009-2013"
+      degree: "Bioinformatics, Bachelor of Science (B.Sc.)"
 
 # experience
 experience:
@@ -79,17 +83,17 @@ experience:
   #   URL: "#"
 
   items:
-    - title: "Sr. Front-End Developer"
-      company: "Radity"
-      duration: "Feb 2011 - Sep 2019"
+    - title: "Sr. DevOps Engineer"
+      company: "SAP Signavio"
+      duration: "Jul 2019 - Sep 2023"
 
-    - title: "Sr. Front-End Developer"
-      company: "Textic"
-      duration: "Apr 2010 - Jan 2011"
+    - title: "System Engineer"
+      company: "Netcentric, A Cognizant Digital Business"
+      duration: "Feb 2017 - May 2019"
 
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Software Test Engineer"
+      company: "Avenso GbmH"
+      duration: "May 2015 - Jan 2017"
 
 # Client & Work
 client_and_work:
