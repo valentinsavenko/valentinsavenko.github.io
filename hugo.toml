@@ -58,7 +58,12 @@ weight = 2
 
 [params]
 
-sections = ["showcase", "about", "education", "experience"]
+sections = [
+    "showcase", 
+    "about",  
+    "experience",
+    "education"
+]
 # sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact"]
 
 googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager

@@ -8,14 +8,18 @@ showcase:
   enable: true
   title: "Hello, I’m Valentin."
   subtitle: "DevOps Engineer"
-  description: "I'm focused on Cloud and developer experience automation topics and helping teams make fast progress with AWS, CDK, CircleCI, Serverless, Kubernetes and whatever else you'll need!"
+  description: "I'm focused on Cloud and developer experience automation topics and helping teams make fast progress with AWS, CDK, CircleCI, Serverless, Kubernetes and all kinds of modern delivery tools."
   image:
     alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase@2x.png"
+      # x: "img/showcase/showcase.png"
+    x: "img/showcase/artem-sapegin.jpg"
+    # _2x: "img/showcase/showcase@2x.png"
+    _2x: "img/showcase/artem-sapegin.jpg"
+    
   imageMobile:
     alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/showcase-mobile.jpg"
+    # x: "img/showcase/showcase-mobile.jpg"
+    x: "img/showcase/artem-sapegin.jpg"
 
   button:
     icon: "icon-mail-fill"
@@ -33,16 +37,16 @@ showcase:
 about:
   enable: true
   title: "Who am I?"
-  content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
+  content: "<p class=\"lead\">
+    I see the developer team as my customers. If the code is broken, let\'s set up continous testing with notifications. 
     </p>
-    <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
-    </p>'
+    <p class=\"lead\">
+    If the servers are messy, let\'s put them into Infra as Code, or even better: go Serverless.
+    </p>
+    <p class=\"lead\">
+    If the tech, the process or unclear requirements are in the way of fast interations, let\'s fix it.
+    </p>
+    "
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
@@ -50,24 +54,6 @@ about:
   image:
     x: "img/who-am-i/vs-portrait-green-1x.png"
     _2x: "img/who-am-i/vs-portrait-green-2x.png"
-
-# education
-education:
-  enable: true
-  title: "Education"
-  items:
-    - university: "Hasso Plattner Institute"
-      year: "2015"
-      degree: "Design Thinking, Basic Track"
-      description: ' omg geilomg geil omg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geil'
-
-    - university: "İzmir Yüksek Teknoloji Enstitüsü"
-      year: "2014-2015"
-      degree: "Erasmus, 5 months"
-
-    - university: "Universität des Saarlandes"
-      year: "2009-2013"
-      degree: "Bioinformatics, Bachelor of Science (B.Sc.)"
 
 # experience
 experience:
@@ -86,15 +72,41 @@ experience:
   items:
     - title: "Sr. DevOps Engineer"
       company: "SAP Signavio"
+      companyLink: "https://www.signavio.com/"
       duration: "Jul 2019 - Sep 2023"
+      description: "As a Co-Techlead, I spearheaded the development of a Fullstack Team employing Serverless (Lambda) technologies for Continuous Delivery, utilizing TypeScript for front-end (React), back-end (Node), and infrastructure (AWS CDK). My responsibilities included setting up CI/CD pipelines, refining the developer experience, and crafting a comprehensive test strategy. Additionally, I established team practices, conducted mentoring/coaching sessions for decision-making and engineering, and led the migration of a SaaS platform from hosted VMs to AWS using Terraform, Kubernetes, Helm, and ArgoCD while adhering to infrastructure as code principles. Furthermore, I oversaw the migration and refactoring of build and release processes, transitioning from Jenkins to CircleCI, Gitlab to Github, and converting plain Java-Spring applications into Docker containers."
 
     - title: "System Engineer"
       company: "Netcentric, A Cognizant Digital Business"
+      companyLink: "https://www.netcentric.biz"
       duration: "Feb 2017 - May 2019"
+      description: AWS infrastructure provisioning & Puppet configuration of enterprise websites running on Adobe Experience Manager. Debugging Linux, networks and administering complex Java applications.
 
     - title: "Software Test Engineer"
-      company: "Avenso GbmH"
+      company: "Avenso GbmH // Whitewall"
+      companyLink: "https://www.whitewall.com"
       duration: "May 2015 - Jan 2017"
+      description: Website test automation & quality management
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Hasso Plattner Institute"
+      year: "2015"
+      degree: "Design Thinking, Basic Track"
+      description: 'Innovation Management and project-oriented Teamwork. Design processes, prototyping, customer experience.'
+
+    - university: "İzmir Yüksek Teknoloji Enstitüsü"
+      year: "2014-2015"
+      degree: "Erasmus, 5 months"
+      description: "Mostly learning turkish, eating great food and attending some fun Scala courses"
+
+    - university: "Universität des Saarlandes"
+      year: "2009-2013"
+      degree: "Bioinformatics, Bachelor of Science (B.Sc.)"
+      description: "Biology + computer science. Data analysis techniques to collect, organize, and analyze biological data, such as DNA sequences, protein structures, and gene expression profiles"
 
 # Client & Work
 client_and_work:
@@ -191,10 +203,3 @@ testimonial:
       image:
         x: "img/testimonials/antonio-willis.jpg"
         _2x: "img/testimonials/antonio-willis@2x.jpg"
-
-# contact
-contact:
-  enable: false
-
-newsletter:
-  enable : false
