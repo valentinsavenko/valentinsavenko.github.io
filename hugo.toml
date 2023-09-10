@@ -1,6 +1,8 @@
 baseURL = "https://www.valentinsavenko.com/"
 languageCode = "en-us"
-theme = "raditian-free-hugo-theme"
+# theme = "raditian-free-hugo-theme"
+theme = "vs-free-hugo-theme"
+
 
 # Plugins
 [params.plugins]
@@ -49,10 +51,10 @@ weight = 2
 # name = "Portfolio"
 # weight = 3
 
-[[menu.footer]]
-URL = "#contact"
-name = "Contact"
-weight = 4
+# [[menu.footer]]
+# URL = "#contact"
+# name = "Contact"
+# weight = 4
 
 [params]
 
@@ -66,8 +68,4 @@ text1 = "Valentin"
 text2 = "Savenko"
 
 [params.footer]
-copyright = "© Raditian. All rights reserved."
-[params.footer.radity_logo]
-_2x = "img/general/design-and-code-radity@2x.png"
-alt = "Design & Code - Radity"
-x = "img/general/design-and-code-radity.png"
+copyright = "© Valentin Savenko. All rights reserved."

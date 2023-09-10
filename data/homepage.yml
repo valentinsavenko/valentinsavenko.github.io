@@ -46,10 +46,10 @@ about:
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/valentin-savenko-61b38797"
   image:
-    x: "img/who-am-i/vs.png"
-    _2x: "img/who-am-i/vs.png"
+    x: "img/who-am-i/vs-portrait-green-1x.png"
+    _2x: "img/who-am-i/vs-portrait-green-2x.png"
 
 # education
 education:
@@ -59,6 +59,7 @@ education:
     - university: "Hasso Plattner Institute"
       year: "2015"
       degree: "Design Thinking, Basic Track"
+      description: ' omg geilomg geil omg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geilomg geil'
 
     - university: "İzmir Yüksek Teknoloji Enstitüsü"
       year: "2014-2015"
@@ -72,7 +73,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  description: "10+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
