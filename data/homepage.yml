@@ -74,19 +74,26 @@ experience:
       company: "SAP Signavio"
       companyLink: "https://www.signavio.com/"
       duration: "Jul 2019 - Sep 2023"
-      description: "As a Co-Techlead, I spearheaded the development of a Fullstack Team employing Serverless (Lambda) technologies for Continuous Delivery, utilizing TypeScript for front-end (React), back-end (Node), and infrastructure (AWS CDK). My responsibilities included setting up CI/CD pipelines, refining the developer experience, and crafting a comprehensive test strategy. Additionally, I established team practices, conducted mentoring/coaching sessions for decision-making and engineering, and led the migration of a SaaS platform from hosted VMs to AWS using Terraform, Kubernetes, Helm, and ArgoCD while adhering to infrastructure as code principles. Furthermore, I oversaw the migration and refactoring of build and release processes, transitioning from Jenkins to CircleCI, Gitlab to Github, and converting plain Java-Spring applications into Docker containers."
+      description1: | 
+        Techlead in the inital stages of a newly formed development team. 
+        Set up a Serverless stack with Continuous Delivery, 
+        utilizing TypeScript for all layers of the Application (Node, Serverless, Lambda, AWS CDK).
+      description2: | 
+        Migrated major legacy SaaS platform from hosted VMs to AWS using Terraform, Kubernetes, Helm, and ArgoCD 
+      description3: | 
+        Refactored build and release processes, transitioning from Jenkins to CircleCI, Gitlab to Github, and converting plain Java-Spring applications into Docker containers.
 
     - title: "System Engineer"
       company: "Netcentric, A Cognizant Digital Business"
       companyLink: "https://www.netcentric.biz"
       duration: "Feb 2017 - May 2019"
-      description: AWS infrastructure provisioning & Puppet configuration of enterprise websites running on Adobe Experience Manager. Debugging Linux, networks and administering complex Java applications.
+      description1: AWS infrastructure provisioning & Puppet configuration of enterprise websites running on Adobe Experience Manager. Debugging Linux, networks and administering complex Java applications.
 
     - title: "Software Test Engineer"
       company: "Avenso GbmH // Whitewall"
       companyLink: "https://www.whitewall.com"
       duration: "May 2015 - Jan 2017"
-      description: Website test automation & quality management
+      description1: Website test automation & quality management
 
 # education
 education:
