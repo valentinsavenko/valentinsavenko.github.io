@@ -61,7 +61,7 @@ about:
 experience:
   enable: true
   title: "Experience"
-  description: "During ~10 years of experience for smaller and very large companies I learned to decipher the inner workings teams & systems. Broken code, delivery systems, observability, servers and processes are not scary and can be improved."
+  description: "During ~10 years of experience working for smaller and very large companies I learned to decipher the inner workings teams & systems. Broken code, delivery systems, observability, servers and processes are not scary and can be improved."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
