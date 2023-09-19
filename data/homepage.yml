@@ -77,7 +77,7 @@ experience:
       companyLink: "https://www.signavio.com/"
       duration: "Jul 2019 - Sep 2023"
       description1: | 
-        Techlead in the inital stages of a newly formed development team. 
+        Techlead in the inital stages of a newly established development team. 
         Set up a Serverless stack with Continuous Delivery, 
         utilizing TypeScript for all layers of the Application (Node, Serverless, Lambda, AWS CDK).
       description2: | 
