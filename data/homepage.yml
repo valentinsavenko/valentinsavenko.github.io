@@ -38,13 +38,15 @@ about:
   enable: true
   title: "Who am I?"
   content: "<p class=\"lead\">
-    I see the developer team as my customers. If the code is broken, let\'s set up continous testing with notifications. 
+      DevOps Engineer, located in Berlin, with a bias for fast iterations and automation.
+      I enjoy unraveling complex systems and developing tools to fast-track progress.
+      Foremost I am a problem solver, programming is just a concise way of writting down one possible solution. 
     </p>
     <p class=\"lead\">
-    If the servers are messy, let\'s put them into Infra as Code, or even better: go Serverless.
+      Foremost I am a problem solver, programming is just a concise way of writting down one possible solution. 
     </p>
     <p class=\"lead\">
-    If the tech, the process or unclear requirements are in the way of fast interations, let\'s fix it.
+      I enjoy working in small, focused teams with aligned goals and clearity on how tasks flow through the team. Recognizing that not every team may initially meet these criteria, I also like morphing tools and processes to help teams approach these high standards.
     </p>
     "
   button:
@@ -59,7 +61,7 @@ about:
 experience:
   enable: true
   title: "Experience"
-  description: "10+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  description: "During ~10 years of experience for smaller and very large companies I learned to decipher the inner workings teams & systems. Broken code, delivery systems, observability, servers and processes are not scary and can be improved."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -79,7 +81,7 @@ experience:
         Set up a Serverless stack with Continuous Delivery, 
         utilizing TypeScript for all layers of the Application (Node, Serverless, Lambda, AWS CDK).
       description2: | 
-        Migrated major legacy SaaS platform from hosted VMs to AWS using Terraform, Kubernetes, Helm, and ArgoCD 
+        Migrated major legacy SaaS platform from hosted VMs to AWS using Terraform, Kubernetes, Helm, and ArgoCD. 
       description3: | 
         Refactored build and release processes, transitioning from Jenkins to CircleCI, Gitlab to Github, and converting plain Java-Spring applications into Docker containers.
 
